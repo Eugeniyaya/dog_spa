@@ -5,9 +5,360 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">        
     <title>Dog-spa</title>
 </head>
-<body>
+<body class="body">
+    <header class="header">
+        <div class="header-top">
+            <img src="img/Logo.svg" alt="" class="logo header__logo">
+            <div class="info header__info">
+                <div class="info__time">
+                    <span class="info__icon info__icon_time"></span>
+                    <p class="info__title">BOARDING HOURS</p>
+                    <p class="info__text">Mon - Sat: 7:00 am - 6:00 pm</p>
+                </div>
+                <div class="info__call">
+                    <span class="info__icon info__icon_call"></span>
+                    <p class="info__title">CALL US</p>
+                    <p class="info__text">(555) Pup-Cares</p>
+                </div>
+            </div>
+            <div class="header-top__bg">
+                <span></span>
+            </div>
+            <button class="btn header__btn">Make an Appointment</button>
+        </div>
+        <nav class="nav header__nav">
+            <div class="close-button"></div>
+            <ul class="menu nav__menu">
+                <li>
+                    <a class="menu__link" href="#">Services</a>
+                    <span class="menu__icon"></span>
+                </li>
+                <li>
+                    <a class="menu__link" href="#">Specials</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="№">Facilities</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="№">Reviews</a>
+                </li>
+                <li>
+                    <a class="menu__link" href="№">Shop</a>
+                    <span class="menu__icon"></span>
+                </li>
+                <li>
+                    <a class="menu__link" href="№">About</a>
+                </li>
+            </ul>
+            <div class="search nav__search"></div>
+            <div class="cart nav__cart">
+                <span class="cart__circle">2</span>
+            </div>
+        </nav>
+    </header>
+    <section class="main">
+        <div class="content-wrapper">
+            <h1 class="heading_1">Premier dog boarding, daycare & day spa</h1>
+            <button class="btn main__btn">Make an Appointment</button>
+        </div>
+    </section>
+    <section class="about">
+        <div class="background-elements background-elements__about"></div>
+        <div class="content-wrapper about__content">
+            <h2 class="heading-2 heading-2__about">Who we are</h2>
+            <h3 class="heading-3 heading-3__about">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
+            <p class="about__text">
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+                nisi ut aliquid ex ea commodi consequatur. 
+                Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+                vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+            </p>
+        </div>
+        <img src="img/Image_nose.png" alt="dog nose" class="about__img">
+    </section>
+    <section class="promise content-wrapper">
+        <h2 class="heading-2 heading-2__promise">OUR PROMISE TO YOU</h2>
+        <h3 class="heading-3 heading-3__promise">Sed perspiciatis omnis iste natus</h3>
+        <ul class="promise-list promise__promise-list">
+            <li class="promise-list__item">
+                <img src="img/dog_love-icon.svg" class="promise-list__icon" width="63" alt="love">
+                <h4 class="promise-list__heading">24/7 Love & Care</h4>
+                <p class="promise-list__text">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                </p>
+            </li>
+            <li class="promise-list__item">
+                <img src="img/dog_vet_-icon.svg" class="promise-list__icon" width="63" alt="vet">
+                <h4 class="promise-list__heading">On-site Veterinarian</h4>
+                <p class="promise-list__text">
+                    Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt.
+                </p>
+            </li>
+            <li class="promise-list__item">
+                <img src="img/dog_stream-icon.svg" class="promise-list__icon" width="63" alt="promise">
+                <h4 class="promise-list__heading">Live-stream Cameras</h4>
+                <p class="promise-list__text">
+                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur illum.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="puppy">
+        <div class="content-wrapper content-wrapper_puppy">
+            <div class="background-blob"></div>
+            <div class="background-elements background-elements__puppy"></div>
+            <img src="img/pup.png" alt="puppy" class="puppy__img">
+            <div class="puppy-content">
+                <h3 class="heading-3 heading-3__puppy">Nemo enim ipsam voluptatem quia voluptas in proident</h3>
+                <button class="btn puppy-content__btn">Make an Appointment</button>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="content-wrapper">
+            <h2 class="heading-2 heading-2__services">our services</h2>
+            <h3 class="heading-3 heading-3__services">Sed perspiciatis omnis iste natus</h3>
+            <ul class="list-services">
+                <li class="list-services__item">
+                    <img src="img/dog_boarding-icon.svg" alt="dog bording" class="list-services__icon">
+                    <h4 class="list-services__heading">Pet Boarding (No Cages)</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+                <li class="list-services__item">
+                    <img src="img/dog_daycare-icon.svg" alt="daycare" class="list-services__icon">
+                    <h4 class="list-services__heading">Pet Daycare</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+                <li class="list-services__item">
+                    <img src="img/dog_grooming-icon.svg" alt="dog grooming" class="list-services__icon">
+                    <h4 class="list-services__heading">Pet Day Spa & Grooming</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+                <li class="list-services__item">
+                    <img src="img/dog_food-icon.svg" alt="dog food" class="list-services__icon">
+                    <h4 class="list-services__heading">Custom Meal Plans</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+                <li class="list-services__item">
+                    <img src="img/dog_training-icon.svg" alt="dogs training" class="list-services__icon">
+                    <h4 class="list-services__heading">Pet Training</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+                <li class="list-services__item">
+                    <img src="img/dog_collar-icon.svg" alt="dog store" class="list-services__icon">
+                    <h4 class="list-services__heading">Shop Our Store</h4>
+                    <p class="list-services__text">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium corrupti quos dolores et quas.
+                    </p>
+                </li>
+            </ul>
+            <button class="btn services__btn">Learn more</button>
+        </div>
+    </section>
+    <section class="appointment">
+        <div class="content-wrapper content-wrapper__appointment">
+            <div class="background-elements background-elements__appointment"></div>
+            <form action="#" method="get" class="form appointment__form">
+                <fieldset class="fieldset form__fieldset">
+                    <legend class="heading-3 heading-3__form">Make an appointment</legend>
+                    <input class="form__input" type="text" placeholder="Name" required>
+                    <input class="form__input" type="email" placeholder="Email" required>
+                    <input class="form__input" type="tel" placeholder="Phone Number" required>
+                    <input class="form__input" type="text" placeholder="Select Service" required>
+                    <textarea class="form__item" placeholder="Tell us about your puppers include his/her name"></textarea>
+                </fieldset>
+                <input type="submit" value="Make an Appointment" class="btn form__btn">
+            </form>
+            <div class="stat">
+                <p class="stat__heading">Maxime placeat facere possimus omnis </p>
+                <div class="stat__count" id="counter">
+                    <span id="counterThausands">5</span>
+                    <span class="stat__separ">,</span>
+                    <span id="counterUnits">700</span>
+                    <span class="stat__separ">+</span>
+                </div>
+                <span class="stat__signiture">customers served</span>
+                
+            </div>
+        </div>
+    </section>
+    <div class="wrap-sect"></div>
+        <section class="gallery">
+            <h2 class="heading-2 heading-2__gallery">GALLERY & LIVE STREAMS</h2>
+            <h3 class="heading-3 heading-3__gallery">Check out our hard workers</h3>
+            <div class="tabs gallery__tabs">
+                <nav class="tabs__items">
+                    <button class="tabs__item" data-tab="#tab_01">Gallery</button>
+                    <button class="tabs__item active" data-tab="#tab_02">
+                        Live stream: Yard 1
+                        <span class="tabs__item_circle-green"></span>
+                    </button>
+                    <button class="tabs__item" data-tab="#tab_03">
+                        Live stream: Yard 2
+                        <span class="tabs__item_circle-gray"></span>
+                    </button>
+                    <button class="tabs__item" data-tab="#tab_04">
+                        Live stream: Yard 3
+                        <span class="tabs__item_circle-gray"></span>
+                    </button>
+                </nav>
+                <hr class="tabs__hr">
+                <div class="tabs__body">
+                    <div class="sticker">Live</div>
+                    <div id="tab_01" class="tabs__block shown">
+                        <img src="img/img_wash.jpg" class="tabs__img" alt="foto">
+                    </div>
+                    <div id="tab_02" class="tabs__block">
+                        <img src="img/dog-show-3.jpg" class="tabs__img">
+                    </div>
+                    <div id="tab_03" class="tabs__block">
+                        <img src="img/dog-show-4.jpg" class="tabs__img">
+                    </div>                
+                    <div id="tab_04" class="tabs__block">
+                        <img src="img/dogs-show_2.jpg" class="tabs__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="customers">
+            <div class="content-wrapper content-wrapper__customers">
+                <div class="customers-headings">
+                    <h2 class="heading-2 heading-2__customers">OUR CUSTOMERS</h2>
+                    <h3 class="heading-3 heading-3__customers">Illum qui dolorem eum quo voluptas ut distinctio</h3>
+                </div>
+                <div class="reviews">
+                    <div class="review customers__review">
+                    <p class="review__text">
+                        “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. 
+                        Ut enim illum ad minim veniam, quis ea exercitation ullamco 
+                        cillum ut enim dolore.”
+                    </p>
+                    <div class="review__wrap">
+                        <img src="img/ava_man.png" class="review__avatar" alt="avatar" width="48">
+                        <span class="review__name">Cullen Bohannon</span>
+                    </div>
+                    </div>
+                    <div class="review customers__review">
+                        <p class="review__text">
+                            “Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+                            accusantium doloremque laudantium, totam rem aperiam, 
+                            eaque ipsa quae ab illo inventore veritatis 
+                            et quasi ipsam voluptatem aspernatur.”
+                        </p>
+                        <div class="review__wrap">
+                            <img src="img/ava_w.png" class="review__avatar" alt="avatar" width="48">
+                            <span class="review__name">Jennifer Thomas</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     
+    <section class="impact">
+        <div class="content-wrapper content-wrapper__impact">
+            <img src="img/Image_dog.png" alt="dog" class="impact__img">
+            <h2 class="heading-2 heading-2__impact">OUR IMPACT</h2>
+            <h3 class="heading-3 heading-3__impact">Nemo enim ipsam voluptatem quia voluptas</h3>
+            <ul class="impact-list">
+                <li class="impact-list__item impact-list__item__dack">
+                    <span class="impact-list__count">3,700</span>
+                    <span class="impact-list__text">puppy baths</span>
+                </li>
+                <li class="impact-list__item impact-list__item__house">
+                    <span class="impact-list__count">4,500</span>
+                    <span class="impact-list__text">dogs boarded</span>
+                </li>
+                <li class="impact-list__item impact-list__item__trained">
+                    <span class="impact-list__count">2,900</span>
+                    <span class="impact-list__text">pups trained</span>
+                </li>
+                <li class="impact-list__item impact-list__item__food">
+                    <span class="impact-list__count">12k+</span>
+                    <span class="impact-list__text">meals served</span>
+                </li>
+            </ul>
+            <div class="low-block impact__low-block">
+                <p class="low-block__text">
+                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </p>
+                <button class="btn low-block__btn">Make an Appointment</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-info">
+                <img src="img/Logo-dark.svg" alt="logo" class="logo footer__logo">
+                <p class="footer-info__text">
+                    This is a blurb about the company sed do eiusmod tempor incididunt ut labore et dolore ex magna aliqua. 
+                </p>
+                <div class="social footer-info__social">
+                    <a href="#" class="social__icon social__icon__face"></a>
+                    <a href="#" class="social__icon social__icon__twit"></a>
+                    <a href="#" class="social__icon social__icon__inst"></a>
+                    <a href="#" class="social__icon social__icon__yout"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 class="heading-4">EXPLORE LINKS</h4>
+                <ul class="links-list footer-links__links-list">
+                    <li><a href="#" class="links-list__item">About</a></li>
+                    <li><a href="#" class="links-list__item">Reviews</a></li>
+                    <li><a href="#" class="links-list__item">Services</a></li>
+                    <li><a href="#" class="links-list__item">Shop</a></li>
+                    <li><a href="#" class="links-list__item">Specials</a></li>
+                    <li><a href="#" class="links-list__item">Careers</a></li>
+                    <li><a href="#" class="links-list__item">Estimates</a></li>
+                    <li><a href="#" class="links-list__item">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-contacts">
+                <h4 class="heading-4">CONTACTS</h4>
+                <p class="footer-contacts__item footer-contacts__item_addres">
+                    321 Pikes Place Parkway
+                    Seattle, WA 54321
+                </p>
+                <p class="footer-contacts__item footer-contacts__item_phone">
+                    (555) 765-4321
+                </p>
+                <p class="footer-contacts__item footer-contacts__item_email">
+                    Info@company.com
+                </p>
+                <p class="footer-contacts__item footer-contacts__item_work-time">
+                    Mon - Sat:  7:000 am - 6:00 pm
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="content-wrapper content-wrapper__footer-bottom">
+                <p class="footer-bottom__text">Tagline lorem ipsum dolor sit amet, consectetur adipiscing eiusmod</p>
+                <div class="footer-bottom__info">
+                    <span class="footer-bottom__copiright">© 2018 Company.</span>
+                    <a href="#" class="footer-bottom__links">Privacy Policy</a>
+                    <a href="#" class="footer-bottom__links">| Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
+
+
