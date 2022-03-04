@@ -1082,6 +1082,7 @@ body, h1, h2, h3, h4, p, ul, ol, li {
   }
   .about {
     max-width: 940px;
+    margin-top: -30px;
   }
   .promise, .services, .content-wrapper__impact, .footer-top, .footer-bottom {
     padding: 0 5%;
