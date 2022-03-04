@@ -70,9 +70,13 @@ function counterNumUn (num, elem, step) {
     
        
 let observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            counterNumUn(700, 'counterUnits', 20);
-            counterNumTh ( 5, 'counterThausands', 1);
+    entries.forEach(entry => {
+            if(entry.isIntersecting) {
+                setTimeout(function () {
+                counterNumUn(700, 'counterUnits', 20);
+                counterNumTh ( 5, 'counterThausands', 1);
+                },1000)
+            }
         })
 });
 let c = document.querySelector('.stat__count');
